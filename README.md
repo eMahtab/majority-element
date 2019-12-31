@@ -1,0 +1,2 @@
+# majority-element
+Majority Element
