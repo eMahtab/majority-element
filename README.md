@@ -25,6 +25,12 @@ public int majorityElement(int[] nums) {
         return -1;
 }
 ```
+Above implementation have runtime complexity of O(n) and space compplexity of O(d), where d is the count of distinct numbers in the input array.
+
+```
+Runtime Complexity = O(n)
+Space Complexity   = O(d)
+```
 
 ### Implementation 2 :
 
@@ -36,6 +42,12 @@ public int majorityElement(int[] nums) {
        Arrays.sort(nums);
        return nums[nums.length / 2]; 
 }
+```
+Above implementation have runtime complexity of O(nlogn) and space compplexity of O(1)
+
+```
+Runtime Complexity = O(nlogn)
+Space Complexity   = O(1)
 ```
 
 ### Implementation 3 :
@@ -60,3 +72,13 @@ public int majorityElement(int[] nums) {
      return result;
 }
 ```
+Above implementation have runtime complexity of O(n) and space compplexity of O(1).
+
+```
+Runtime Complexity = O(n)
+Space Complexity   = O(1)
+```
+
+
+## References
+https://www.programcreek.com/2014/02/leetcode-majority-element-java/
